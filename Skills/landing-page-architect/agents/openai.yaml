@@ -1,0 +1,7 @@
+interface:
+  display_name: "Landing Page Architect"
+  short_description: "Create and audit landing pages"
+  default_prompt: "Use $landing-page-architect to create or audit a landing page structure and copy."
+
+policy:
+  allow_implicit_invocation: true
