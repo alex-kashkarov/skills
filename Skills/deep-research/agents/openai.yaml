@@ -1,0 +1,7 @@
+interface:
+  display_name: "Deep Research"
+  short_description: "Run source-backed deep research"
+  default_prompt: "Use $deep-research to produce a source-backed research brief."
+
+policy:
+  allow_implicit_invocation: true
