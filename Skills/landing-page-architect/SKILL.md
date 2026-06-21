@@ -5,6 +5,8 @@ description: Create, audit, or rewrite product and service landing pages using o
 
 # Landing Page Architect
 
+Landing Page Architect is a Codex-compatible AI agent skill for landing page copywriting, conversion-focused page structure, product and service page audits, value proposition writing, CTA improvement, proof/risk-reducer design, and offer-to-page transformation.
+
 Use this skill to create, audit, or rewrite conversion landing pages. Prefer specific offer logic and block copy over generic CRO advice.
 
 ## Core Rule
