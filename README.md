@@ -74,6 +74,33 @@ Skills/
     references/failure-paths.md
 ```
 
+## Adding a Skill
+
+When adding a new skill, keep the root README as a catalog and put the full human-facing explanation inside the skill folder.
+
+Minimum files:
+
+```text
+Skills/new-skill/
+  README.md
+  SKILL.md
+```
+
+Root README entry format:
+
+```markdown
+### [Skill Name](Skills/skill-name)
+
+One search-friendly sentence describing what the skill does.
+
+Use it for:
+- 3-5 high-intent use cases
+
+Useful for prompts such as "...", "...", or "...".
+
+Key references: [main guide](...).
+```
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
