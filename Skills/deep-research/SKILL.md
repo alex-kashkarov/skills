@@ -5,6 +5,8 @@ description: Rigorous multi-source research workflow for Codex and compatible ag
 
 # Deep Research
 
+Deep Research is a Codex-compatible AI agent skill for source-backed research, evidence synthesis, literature reviews, fact-checking, market research, policy research, technical research, academic research, and PRISMA-style systematic review planning.
+
 ## Purpose
 
 Use this skill to run disciplined research, not generic web browsing. Prefer it when accuracy depends on source quality, citation traceability, contradiction handling, or an explicit research process.

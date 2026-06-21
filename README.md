@@ -28,6 +28,8 @@ understand the offer -> see relevance -> picture how it works -> believe the cla
 
 Run rigorous source-backed research with modes for quick briefs, fact-checking, literature reviews, full reports, Socratic scoping, and systematic-review planning.
 
+Deep Research is an AI agent skill for Codex and compatible skill runners that need reliable, citation-backed answers instead of generic web summaries. It helps agents scope a research question, choose an appropriate depth tier, search multiple source routes, verify sources, handle contradictory evidence, synthesize findings, and produce a cited brief or report.
+
 Use it for:
 
 - deep research and source-backed briefs
@@ -41,6 +43,10 @@ The skill guides an agent through a disciplined research workflow:
 ```text
 choose mode -> choose tier -> approve plan -> search -> verify -> synthesize -> adversarial check -> cite
 ```
+
+Useful for prompts such as "do deep research on this market", "fact-check these claims", "write a literature review", "compare competitors with sources", "verify this policy argument", "find academic evidence for this technical claim", or "plan a PRISMA-style systematic review".
+
+Key references: [research modes](Skills/deep-research/references/modes.md), [source verification](Skills/deep-research/references/source-verification.md), and [failure paths](Skills/deep-research/references/failure-paths.md).
 
 ## Repository Structure
 
