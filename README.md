@@ -56,6 +56,24 @@ Useful for prompts such as "do deep research on this market", "fact-check these 
 
 Key references: [research modes](Skills/deep-research/references/modes.md), [source verification](Skills/deep-research/references/source-verification.md), and [failure paths](Skills/deep-research/references/failure-paths.md).
 
+## Playbooks
+
+Reusable operating configs and process docs for AI agents — the always-on behavior and house rules an agent loads, as opposed to the on-demand, invocable workflows in [Skills](#skills). See [`Playbooks/`](Playbooks) for the full category.
+
+### [LLM Agent Operating Config](Playbooks/llm-agent-operating-config)
+
+A Karpathy-derived global behavior config for AI coding and reasoning agents, with matching per-platform adapters — `CLAUDE.md` for Claude Code and `AGENTS.md` for Codex (Cursor and Antigravity planned). It makes an agent lead with the bottom line, stay honest, challenge a weak plan before executing, and keep diffs surgical.
+
+Use it for:
+
+- a candid, advisor-style alternative to the default agent personality and to the popular community CLAUDE.md files
+- a Codex `AGENTS.md` that matches your `CLAUDE.md` behavior
+- killing sycophancy, flattery, and silent assumptions
+- forcing plan-challenge before code, then surgical, verified execution
+- a shared long-term memory protocol across Claude Code, Codex, and Cursor
+
+Lineage and install steps: see the [playbook README](Playbooks/llm-agent-operating-config).
+
 ## Repository Structure
 
 ```text
@@ -72,6 +90,12 @@ Skills/
     references/modes.md
     references/source-verification.md
     references/failure-paths.md
+
+Playbooks/
+  llm-agent-operating-config/
+    README.md
+    CLAUDE.md
+    AGENTS.md
 ```
 
 ## Adding a Skill
