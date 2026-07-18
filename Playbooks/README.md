@@ -11,8 +11,8 @@ not triggered.
 
 A Karpathy-derived global behavior config for AI coding and reasoning agents, with per-platform
 adapters:
-*   [`CLAUDE.md`](llm-agent-operating-config/CLAUDE.md) for Claude Code (install as `~/.claude/CLAUDE.md` globally, or in a project root).
-*   [`AGENTS.md`](llm-agent-operating-config/AGENTS.md) for Codex / Cursor and Antigravity (install as `~/.gemini/config/AGENTS.md` globally for Antigravity, or `.agents/AGENTS.md` in your project root).
+*   [`CLAUDE.md`](llm-agent-operating-config/CLAUDE.md) for Claude Code (install as `~/.claude/CLAUDE.md`).
+*   [`AGENTS.md`](llm-agent-operating-config/AGENTS.md) for Codex (install as `~/.codex/AGENTS.md`) and Antigravity (install as `~/.gemini/config/AGENTS.md`).
 
 It gives an agent candid, advisor-style behavior: bottom-line-first answers, no sycophancy,
 plan-challenge before code, surgical diffs, and a goal-driven verification loop.
