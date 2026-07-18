@@ -3,8 +3,8 @@
 A drop-in global behavior config for AI coding and reasoning agents — the rules that make an
 agent lead with the bottom line, stay honest, challenge a weak plan *before* executing it, and
 keep its changes surgical. One philosophy, ported to each platform's own config file:
-[`CLAUDE.md`](CLAUDE.md) for Claude Code and [`AGENTS.md`](AGENTS.md) for Codex, Cursor, and
-Antigravity.
+[`CLAUDE.md`](CLAUDE.md) for Claude Code, [`AGENTS.md`](AGENTS.md) for Codex and Antigravity, and
+[`CURSOR-RULES.md`](CURSOR-RULES.md) for Cursor.
 
 Use it if you want your agent to behave like a candid senior collaborator that pushes back —
 not a compliant assistant that agrees and charges ahead. It is the kind of file people look for
@@ -44,11 +44,15 @@ advisor-style default — bottom-line-first answers, no sycophancy, challenge th
 writing code, surgical diffs, and a goal-driven verification loop — a more opinionated take on
 the popular community CLAUDE.md files, with honesty and memory blocks added.
 
-### Codex, Cursor & Antigravity — [`AGENTS.md`](AGENTS.md)
+### Codex & Antigravity — [`AGENTS.md`](AGENTS.md)
 
-The `AGENTS.md` counterpart of the same config, supported by Codex, Cursor, and Antigravity.
-*   **Codex / Cursor:** Drop it at `~/.agents/AGENTS.md` (or a project root) for identical behavior in Cursor and other agents that read `AGENTS.md`.
+The `AGENTS.md` counterpart of the same config, supported by Codex and Antigravity.
+*   **Codex:** Drop it at `~/.agents/AGENTS.md` (or a project root) for identical behavior in Codex and other agents that read `AGENTS.md`.
 *   **Antigravity:** Drop it at `~/.gemini/config/AGENTS.md` (globally) or `.agents/AGENTS.md` (in your project root).
+
+### Cursor — [`CURSOR-RULES.md`](CURSOR-RULES.md)
+
+The Cursor port of the same config. Cursor has no global `AGENTS.md`, so paste it into **Cursor Settings → Rules → User Rules** for global behavior across every project, or save it as a `.cursor/rules/*.mdc` file to scope it to one repo. Applies to Agent chat (not Tab or inline edit).
 
 ## How to use
 
