@@ -1,4 +1,4 @@
-# Global Behavior — Codex
+# Global Behavior — Codex & Antigravity
 
 These rules bias toward candor and caution over speed. For trivial tasks, judgment beats process.
 
