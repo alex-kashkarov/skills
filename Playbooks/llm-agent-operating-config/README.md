@@ -3,8 +3,8 @@
 A drop-in global behavior config for AI coding and reasoning agents — the rules that make an
 agent lead with the bottom line, stay honest, challenge a weak plan *before* executing it, and
 keep its changes surgical. One philosophy, ported to each platform's own config file:
-[`CLAUDE.md`](CLAUDE.md) for Claude Code and [`AGENTS.md`](AGENTS.md) for Codex, with Cursor and
-Antigravity adapters planned.
+[`CLAUDE.md`](CLAUDE.md) for Claude Code and [`AGENTS.md`](AGENTS.md) for Codex, Cursor, and
+Antigravity.
 
 Use it if you want your agent to behave like a candid senior collaborator that pushes back —
 not a compliant assistant that agrees and charges ahead. It is the kind of file people look for
@@ -44,15 +44,11 @@ advisor-style default — bottom-line-first answers, no sycophancy, challenge th
 writing code, surgical diffs, and a goal-driven verification loop — a more opinionated take on
 the popular community CLAUDE.md files, with honesty and memory blocks added.
 
-### Codex — [`AGENTS.md`](AGENTS.md)
+### Codex, Cursor & Antigravity — [`AGENTS.md`](AGENTS.md)
 
-The Codex `AGENTS.md` counterpart of the same config. Drop it at `~/.codex/AGENTS.md` (or a
-project root) for identical behavior in Codex and other agents that read `AGENTS.md`. If you have
-seen a "Karpathy CLAUDE.md" and want the matching `AGENTS.md` for Codex, this is it.
-
-### Cursor & Antigravity
-
-Planned — the same five blocks, ported to each tool's config format.
+The `AGENTS.md` counterpart of the same config, supported by Codex, Cursor, and Antigravity.
+*   **Codex / Cursor:** Drop it at `~/.agents/AGENTS.md` (or a project root) for identical behavior in Cursor and other agents that read `AGENTS.md`.
+*   **Antigravity:** Drop it at `~/.gemini/config/AGENTS.md` (globally) or `.agents/AGENTS.md` (in your project root).
 
 ## How to use
 
